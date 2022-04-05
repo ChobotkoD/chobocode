@@ -10,7 +10,7 @@ import {HeaderSection, HeaderContact, HeaderSocial, HeaderArrowDown} from './hea
 const Header = () => {
   return (
     <header className='container'>
-      <HeaderSection >
+      <HeaderSection id='home'>
         <h2>Hello, I`m</h2>
         <h1>Chobotko Dmytro</h1>
         <h2>Fullstack Developer</h2>
@@ -23,7 +23,7 @@ const Header = () => {
           </a>
         </ HeaderContact>
         <div className='HeaderImg'>
-          <HeaderSocial className='HeaderSocial'>
+          <HeaderSocial id='HeaderSocial'>
             <ul>
               <li><a><BsInstagram/></a></li>
               <li><a><BsInstagram/></a></li>
@@ -32,7 +32,7 @@ const Header = () => {
             </ul>
           </HeaderSocial>
           <img src={HEADER_IMG} alt='me'/>
-          <HeaderArrowDown className='HeaderArrowDown'/>
+          <HeaderArrowDown id='HeaderArrowDown'/>
         </div>
       </HeaderSection>  
     </header>

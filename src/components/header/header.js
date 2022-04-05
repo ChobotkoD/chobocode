@@ -2,8 +2,9 @@ import styled from "styled-components";
 import { ImArrowDown } from "react-icons/im";
 
 export const HeaderSection = styled.section`
-  height: 100vh;
   padding-top: 8rem;
+  height: 100vh;
+
   h1 {
     text-align: center;
     font-size: 2rem;
