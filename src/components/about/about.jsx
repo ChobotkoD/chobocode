@@ -13,12 +13,7 @@ export const ProjectsIcon = styled(AiOutlineAudit)`
 
 
 export const AboutSection = styled.section`
-    /* h2{
-        color:var(--color-primary);
-        font-size: 2rem;
-    } */
-
-
+  padding-top: 16rem;
 `
 export const AboutInfo = styled.div`
 display:flex;

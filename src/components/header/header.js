@@ -3,7 +3,7 @@ import { ImArrowDown } from "react-icons/im";
 
 export const HeaderSection = styled.section`
   padding-top: 8rem;
-  height: 100vh;
+  /* height: 100vh; */
 
   h1 {
     text-align: center;

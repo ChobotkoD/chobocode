@@ -4,8 +4,8 @@ import { ExperienceArticles, ExperienceBackend, ExperienceFrontend, ExperienceIn
 const Experience = () => {
   return (
     <ExperienceSection id='experience' className='container'>
-      <h2>What Skills I Have</h2>
-      <h5>My Experience</h5>
+      <h5>What Skills I Have</h5>
+      <h2>My Experience</h2>
       <ExperienceInfo>
         <ExperienceFrontend>
           <h3>Frontend Development</h3>

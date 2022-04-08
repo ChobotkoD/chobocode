@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import {AiFillSafetyCertificate} from 'react-icons/ai'
+import {BsPatchCheckFill} from 'react-icons/bs'
 
-export const ExperienceIcon = styled(AiFillSafetyCertificate)`
+export const ExperienceIcon = styled(BsPatchCheckFill)`
     color:var(--color-primary);
-    font-size: 2rem;
+    font-size: 1.75rem;
 `
 
 
@@ -64,11 +64,10 @@ gap: 1rem;
 article{
     width: 150px;
     height: 50px;
-    /* background-color: teal; */
     div{
         display: flex;
         justify-content: flex-start;
-        gap: 0.85rem;
+        gap: 1rem;
     }
     h5{
         text-align: center;

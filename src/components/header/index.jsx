@@ -11,9 +11,9 @@ const Header = () => {
   return (
     <header className='container'>
       <HeaderSection id='home'>
-        <h2>Hello, I`m</h2>
+        <h5>Hello, I`m</h5>
         <h1>Chobotko Dmytro</h1>
-        <h2>Fullstack Developer</h2>
+        <h5>Fullstack Developer</h5>
         <HeaderContact >
           <a href={resume} className='btn' download>
             Download CV
