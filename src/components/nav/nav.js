@@ -4,8 +4,11 @@ import {
   AiOutlineInfoCircle,
   AiOutlineBook,
   AiOutlineLaptop,
+  AiOutlineComment,
   AiOutlinePhone,
 } from "react-icons/ai";
+
+import { HiOutlinePhotograph } from "react-icons/hi";
 
 export const Home = styled(AiOutlineHome)`
   font-size: 2rem;
@@ -23,32 +26,35 @@ export const Services = styled(AiOutlineLaptop)`
   font-size: 2rem;
 `;
 
+export const Portfolio = styled(HiOutlinePhotograph)`
+  font-size: 2rem;
+`;
+export const Testimonials = styled(AiOutlineComment)`
+  font-size: 2rem;
+`;
 export const Contact = styled(AiOutlinePhone)`
   font-size: 2rem;
 `;
 
 export const NavSection = styled.nav`
-  background: rgba(0, 0, 0, 0.3);
-  z-index: 5;
-  /* width: max-content; */
-  /* display: block; */
-  padding: 0.7rem 1.7rem;
   position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 2rem;
+  bottom: 40%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 12;
+  padding: 0.7rem 0.5rem;
   backdrop-filter: blur(1px);
-  border-radius: 3rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
 
   a {
-    border: none;
-    border-radius: 50%;
+    border-radius: 20%;
     background: transparent;
-    margin: 0 1rem;
     &:hover {
       background: rgba(222, 22, 111, 0.25);
     }
     &.active {
+      padding-top: 0.5rem;
       background: var(--color-bg);
       color: var(--color-white);
     }

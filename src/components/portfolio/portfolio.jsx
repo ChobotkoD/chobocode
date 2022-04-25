@@ -24,10 +24,10 @@ export const PortfolioExamples = styled.div`
 export const PortfolioExample = styled.article`
     flex: 1;
     text-align: center;
-    padding: 2.2rem 1.5rem 1rem 1.5rem;
+    padding: 1.2rem 2rem 0.5rem 2rem;
     background-color: var(--color-bg-variant);
     border-radius: 2rem;
-    line-height: 4rem;
+    line-height: 2rem;
     
     overflow: hidden;
     

@@ -1,8 +1,20 @@
 import styled from 'styled-components'
 
+import BG from '../../assets/bg.jpg'
+
+export const ServicesBackground = styled.div`
+    background-image: url(${BG});
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -999!important;
+`
+
 
 export const ServicesSection = styled.section`
-    padding-top: 8rem;
+    padding: 8rem 0;
+    h2, h5{
+       position: relative;
+   }
 `
 
 
@@ -42,6 +54,7 @@ export const ServicesArticle = styled.article`
     border: 1px solid var(--color-primary);
     border-radius: 0 0 2rem 2rem;
     height: max-content;
+    height: 245px;
     
     div{
         padding: 2rem;
@@ -65,5 +78,8 @@ export const ServicesArticle = styled.article`
         font-size: 0.8rem;
         padding-right: 1.2rem;
         color: var(--color-primary);
+    }
+    @media screen and (max-width: 600px){
+        height: 225px;
     }
 `

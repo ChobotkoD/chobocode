@@ -1,11 +1,25 @@
 import styled from 'styled-components'
 
 
+
+
 export const TestimonialsSection = styled.section`
     padding-top: 8rem;
     h2{
         padding-bottom: 2rem;
     }
+    .swiper{
+        /* background-color: teal; */
+    }
+  
+    .swiper-pagination-bullet{
+       background-color: #fff;
+       opacity: 0.7;
+        }
+    .swiper-pagination-bullet-active{
+       background-color: var(--color-primary);
+       opacity: unset;
+        }
 `
 export const TestimonialsArticle = styled.article`
     display: flex;
@@ -18,6 +32,7 @@ export const TestimonialsArticle = styled.article`
     background-color: var(--color-bg-variant);
     padding: 2rem;
     border-radius: 2rem;
+    height: 350px;
     img{
         border-radius: 10rem;
         max-width: 100px;
@@ -30,7 +45,7 @@ export const TestimonialsArticle = styled.article`
     }
 
     @media screen and (max-width: 1024px){
-        max-width: 50%;
+        max-width: 60%;
     }
     @media screen and (max-width: 600px){
         max-width: 80%;

@@ -5,24 +5,24 @@ import {AiOutlineGithub} from 'react-icons/ai'
 const Footer = () => {
   return (
     <FooterSection>
-      <FooterArea className='container'> 
-        <h2>EGATOR</h2>
+      <FooterArea id='footer' className='container'> 
+        <h2>CHOBOCODE</h2>
         <FooterLinks>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Experience</li>
-            <li>Services</li>
-            <li>Portfolio</li>
-            <li>Testimonials</li>
-            <li>Contact</li>
+            <a href='#home'><li>Home</li></a>
+            <a href="#about"><li>About</li></a>
+            <a href="#experience"><li>Experience</li></a>
+            <a href="#services"><li>Services</li></a>
+            <a href="#portfolio"><li>Portfolio</li></a>
+            <a href="#testimonials"><li>Testimonials</li></a>
+            <a href="#contact"><li>Contact</li></a>
           </ul>
         </FooterLinks>
-        <FooterSocials>
+        {/* <FooterSocials>
           <AiOutlineGithub/>
           <AiOutlineGithub/>
           <AiOutlineGithub/>
-        </FooterSocials>
+        </FooterSocials> */}
         <p>© Chobotko. All rights reserved</p>
       </FooterArea>
     </FooterSection>
